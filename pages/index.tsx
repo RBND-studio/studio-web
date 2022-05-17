@@ -9,10 +9,12 @@ export default function IndexPage() {
           <a href="https://atmos.style/">Atmos.style</a>
         </li>
         <li>
-          <a href="https://atmos.style/">Content master - Figma plugin</a>
+          <a href="https://www.figma.com/community/plugin/1105107567350255361">
+            Content master - Figma plugin
+          </a>
         </li>
       </ul>
-      <footer className="pinda">hello@rbnd.studio</footer>
+      <footer>hello@rbnd.studio</footer>
       <style jsx>{`
         h1 {
           font-weight: 900;
@@ -43,7 +45,7 @@ export default function IndexPage() {
         li:not(:last-child) {
           margin-bottom: 8px;
         }
-        .pinda {
+        footer {
           font-weight: 400;
           font-size: 16px;
           line-height: 20px;
