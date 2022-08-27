@@ -1,20 +1,23 @@
+import { Projects } from "../components/project";
+import { projectData } from "../res/data";
+
 export default function IndexPage() {
   return (
     <div className="container">
-      <div className="circle" />
-      <h1>rbnd studio</h1>
-      <p>We create things</p>
-      <ul>
-        <li>
-          <a href="https://atmos.style/">Atmos.style</a>
-        </li>
-        <li>
-          <a href="https://www.figma.com/community/plugin/1105107567350255361">
-            Content master - Figma plugin
-          </a>
-        </li>
-      </ul>
-      <footer>hello@rbnd.studio</footer>
+      <div className="hero">
+        <div className="circle" />
+        <h1>rbnd </h1>
+        <p>We create things</p>
+      </div>
+
+      <Projects />
+      <footer>
+        <p>Made with ❤️</p>
+        <p>hello@rbnd.studio</p>
+        <a href="https://github.com/RBND-studio" target="_blank" rel="noreferrer">
+          Github
+        </a>
+      </footer>
       <style jsx>{`
         h1 {
           font-weight: 900;
@@ -24,37 +27,33 @@ export default function IndexPage() {
         }
         p {
           font-weight: 400;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 28px;
           margin: 0;
-        }
-        a {
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 28px;
-          color: #7989fe;
-        }
-        a:hover {
-          color: #576df3;
-        }
-        ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-        }
-        li:not(:last-child) {
-          margin-bottom: 8px;
+          opacity: 0.5;
         }
         footer {
+          color: #77728a;
+          display: flex;
+          gap: 16px;
+        }
+
+        footer > p {
           font-weight: 400;
           font-size: 16px;
           line-height: 20px;
-          color: #77728a;
-        }
-        .container {
-          padding: 120px 16px;
           display: flex;
           gap: 24px;
+          opacity: 1;
+        }
+
+        footer > a:hover {
+          text-decoration: underline;
+        }
+        .container {
+          padding: 120px 24px;
+          display: flex;
+          gap: 64px;
           flex-direction: column;
           text-align: center;
           align-items: center;
@@ -64,6 +63,13 @@ export default function IndexPage() {
           height: 120px;
           border-radius: 50%;
           background: linear-gradient(36.98deg, #4053d3 13.16%, #576df3 85.57%);
+          margin-bottom: 24px;
+        }
+        .hero {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
         }
       `}</style>
     </div>
