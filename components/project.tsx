@@ -32,7 +32,7 @@ export const Projects = () => {
           list-style: none;
           padding: 0;
           margin: 0;
-          max-width: 400px;
+          max-width: 480px;
         }
         li:not(:last-child) {
           margin-bottom: 40px;

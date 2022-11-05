@@ -6,14 +6,13 @@ export default function IndexPage() {
     <div className="container">
       <div className="hero">
         <div className="circle" />
-        <h1>rbnd </h1>
+        <h1>RBND </h1>
         <p>We create things</p>
       </div>
 
       <Projects />
       <footer>
         <p>Made with ❤️</p>
-        <p>hello@rbnd.studio</p>
         <a href="https://github.com/RBND-studio" target="_blank" rel="noreferrer">
           Github
         </a>

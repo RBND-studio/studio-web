@@ -14,4 +14,9 @@ export const projectData = [
     description: "Package for switching between light, dark, and system themes",
     href: "https://www.npmjs.com/package/@rbnd/react-dark-mode",
   },
+  {
+    title: "RBND youtube channel",
+    description: "Enduro trails and downhill tracks in raw POV videos",
+    href: "https://www.youtube.com/channel/UC8Wse9y8W1VUtK47UngiH7w",
+  },
 ];

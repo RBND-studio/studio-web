@@ -6,13 +6,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        title="rbnd studio"
-        description="Rbnd studio is a digital studio based in Prague, Czechia. We create things."
+        title="RBND studio"
+        description="RBND studio is a digital studio based in Prague, Czechia. We create things."
         openGraph={{
           type: "website",
-          title: "rbnd studio",
+          title: "RBND studio",
           url: "https://rbnd.studio/",
-          description: "Rbnd studio is a digital studio based in Prague, Czechia. We create things.",
+          description: "RBND studio is a digital studio based in Prague, Czechia. We create things.",
         }}
         additionalMetaTags={[
           { name: "author", content: "Ondřej Pešička, Vojtěch Vidra" },
