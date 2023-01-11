@@ -12,9 +12,8 @@ export default function IndexPage() {
 
       <Projects />
       <footer>
-        <p>Made with ❤️</p>
         <a href="https://github.com/RBND-studio" target="_blank" rel="noreferrer">
-          Github
+          Our GitHub
         </a>
       </footer>
       <style jsx>{`
