@@ -2,11 +2,17 @@ export const projectData = [
   {
     title: "Atmos",
     description: "Everything you need to create color palettes",
-    href: "https://atmos.style/",
+    href: "https://atmos.style",
+  },
+  {
+    title: "Fig Stats",
+    description: "Figma plugin & widget analytics",
+    href: "https://fig-stats.com",
   },
   {
     title: "Content master",
-    description: "Figma plugin that lets you find all instances of a text and replace them with data",
+    description:
+      "Figma plugin that lets you find all instances of a text and replace them with data",
     href: "https://www.figma.com/community/plugin/1105107567350255361",
   },
   {
