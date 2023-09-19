@@ -1,5 +1,10 @@
 export const projectData = [
   {
+    title: "Flows",
+    description: "A better way to onboard users and drive product adoption",
+    href: "https://flows.sh",
+  },
+  {
     title: "Atmos",
     description: "Everything you need to create color palettes",
     href: "https://atmos.style",
