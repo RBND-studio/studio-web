@@ -4,21 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prepare": "panda codegen",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.4.19",
+    "next": "14.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "17.0.31",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "typescript": "5.2.2"
+    "@pandacss/dev": "^0.36.1",
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.69",
+    "@types/react-dom": "18.2.22",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.4",
+    "typescript": "5.4.3"
   }
 }
