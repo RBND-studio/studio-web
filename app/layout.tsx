@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { css } from "../styled-system/css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rbnd.studio/"),
@@ -60,6 +61,11 @@ export default function RootLayout({
         >
           {children}
         </main>
+        <Script
+          data-domain="rbnd.studio"
+          defer
+          src="https://plausible.io/js/script.js"
+        />
       </body>
     </html>
   );
