@@ -15,6 +15,22 @@ export default function IndexPage() {
       </Flex>
 
       <Projects />
+
+      <a
+        href="https://github.com/RBND-studio"
+        target="_blank"
+        rel="noreferrer"
+        className={css({
+          color: "#717171",
+          display: "block",
+          mt: "1.6rem",
+          "&:hover": {
+            textDecoration: "underline",
+          },
+        })}
+      >
+        Our GitHub
+      </a>
     </>
   );
 }
