@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { css } from "../styled-system/css";
 import Script from "next/script";
+import { Footer } from "./footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rbnd.studio/"),
@@ -61,6 +62,7 @@ export default function RootLayout({
         >
           {children}
         </main>
+        <Footer />
         <Script
           data-domain="rbnd.studio"
           defer
