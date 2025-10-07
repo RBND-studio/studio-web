@@ -10,17 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "15.5.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.36.1",
-    "@types/node": "20.11.30",
-    "@types/react": "18.2.69",
-    "@types/react-dom": "18.2.22",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.1.4",
-    "typescript": "5.4.3"
-  }
+    "@pandacss/dev": "^1.4.1",
+    "@types/node": "^22",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.5.4",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.18.0"
 }
