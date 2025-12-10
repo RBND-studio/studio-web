@@ -1,5 +1,6 @@
+engineStrict: true
+
 onlyBuiltDependencies:
   - esbuild
   - sharp
-
-engineStrict: true
+  - unrs-resolver
