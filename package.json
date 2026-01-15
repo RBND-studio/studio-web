@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
-    "@pandacss/dev": "^1.8.0",
+    "@pandacss/dev": "^1.8.1",
     "@types/node": "^24",
     "@types/react": "19.2.8",
     "@types/react-dom": "19.2.3",
