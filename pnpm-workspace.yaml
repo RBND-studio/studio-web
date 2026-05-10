@@ -1,8 +1,7 @@
 engineStrict: true
-
-onlyBuiltDependencies:
-  - esbuild
-  - sharp
-  - unrs-resolver
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
 overrides:
-  picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
+  postcss@<8.5.10: ^8.5.10
