@@ -10,22 +10,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "next": "16.2.6",
-    "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
-    "@pandacss/dev": "^1.11.1",
-    "@types/node": "^24",
-    "@types/react": "19.2.14",
+    "@pandacss/dev": "^1.11.3",
+    "@types/node": "^24.13.2",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^10.3.0",
-    "eslint-config-next": "16.2.6",
+    "eslint": "^10.5.0",
+    "eslint-config-next": "16.2.9",
     "typescript": "6.0.3"
   },
-  "packageManager": "pnpm@11.0.9",
+  "packageManager": "pnpm@11.7.0",
   "engines": {
     "node": "^24"
   }
