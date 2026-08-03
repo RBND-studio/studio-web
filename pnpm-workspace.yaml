@@ -5,7 +5,10 @@ allowBuilds:
   unrs-resolver: true
 overrides:
   esbuild@>=0.17.0 <0.28.1: ^0.28.1
-  postcss@<8.5.10: ^8.5.10
+  postcss@<8.5.18: ^8.5.18
+  sharp@<0.35.0: ^0.35.0
 minimumReleaseAgeExclude:
-  - postcss@8.5.10
+  - postcss@8.5.10 || 8.5.18
   - esbuild@0.28.1
+  - sharp@0.35.0
+  - brace-expansion@1.1.17 || 5.0.8
